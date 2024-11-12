@@ -5,7 +5,6 @@
       <ImageWithLayover class="h-full" layoverPositionClasses="left-4 top-14" layoverOpacity="bg-opacity-0">
         <template #image>
           <div class="w-full h-full bg-red-600"></div>
-          <!-- <img class="object-cover w-full h-full" :src="mappedPathContent[0].src" alt=""> -->
         </template>
         <template #layover>
           <TopicContent :content="content[0]"></TopicContent>
@@ -49,7 +48,7 @@
       </ImageWithLayover>
     </div>
 
-    <!-- Quinto riquadro (quello grande) -->
+    <!-- Quinto riquadro -->
     <div class="h-[440px] col-span-2">
       <ImageWithLayover class="h-full" layoverPositionClasses="right-4 top-14">
         <template #image>

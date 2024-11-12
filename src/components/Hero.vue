@@ -16,7 +16,7 @@
           <img class="object-cover object-center max-h-[500px] w-full " :src="mappedPathContent[0].src" alt="">
         </template>
         <template #layover>
-          <TopicContent  :content="content[0]" :avatarPosition="'row'" :hasArrow="false"></TopicContent>
+          <TopicContent :content="content[0]" :avatarPosition="'row'" :hasArrow="false"></TopicContent>
         </template>
       </ImageWithLayover>
 
@@ -27,7 +27,7 @@
             <img class="object-cover object-center h-full w-full " :src="mappedPathContent[1].src" alt="">
           </template>
           <template #layover>
-            <TopicContent  :content="content[1]"></TopicContent>
+            <TopicContent :content="content[1]"></TopicContent>
           </template>
         </ImageWithLayover>
 
@@ -38,7 +38,7 @@
               <img class="h-auto max-w-full " :src="mappedPathContent[2].src" alt="">
             </template>
             <template #layover>
-              <TopicContent  :content="content[2]"></TopicContent>
+              <TopicContent :content="content[2]"></TopicContent>
             </template>
           </ImageWithLayover>
 
@@ -47,7 +47,7 @@
               <img class="h-auto max-w-full " :src="mappedPathContent[3].src" alt="">
             </template>
             <template #layover>
-              <TopicContent  :content="content[3]"></TopicContent>
+              <TopicContent :content="content[3]"></TopicContent>
             </template>
           </ImageWithLayover>
 

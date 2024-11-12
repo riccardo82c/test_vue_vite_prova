@@ -12,7 +12,7 @@ import { computed } from 'vue'
 import BlogCardItem from '@/ui-kit/BlogCardItem.vue'
 
 const blogItems = [
-  { title: "Il Blog", customClass: "text-[40px] text-red-600"},
+  { title: "Il Blog", customClass: "text-[40px] text-red-600" },
   { src: 'blog1.jpeg', title: "Il Becco dell'oca", author: 'Di Paolo Dell’Oca' },
   { src: 'blog1.jpeg', title: 'Disarmato', author: 'Di Pasquale Pugliese' },
   { src: 'blog1.jpeg', title: 'Battitiperminuto', author: 'Di Lorenzo Maria Alvaro' },
