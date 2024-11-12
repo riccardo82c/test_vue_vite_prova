@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .link {
+    @apply hover:underline cursor-pointer;
+  }
+
+  .topic-shadow {
+    box-shadow: -3px 3px 0px 1px #000
+  }
+
+  .badge-shadow {
+    box-shadow: -1px 1px 0px 1px #000
+  }
+}
