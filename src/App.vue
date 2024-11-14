@@ -8,7 +8,10 @@
       <CentralGrid />
       <SubCentralGrid />
       <BlogSection />
+      <BottomGrid />
     </section>
+
+    <Header />
   </div>
 </template>
 
@@ -19,4 +22,5 @@ import SubHero from './components/SubHero.vue';
 import CentralGrid from './components/CentralGrid.vue'
 import SubCentralGrid from './components/SubCentralGrid.vue';
 import BlogSection from './components/BlogSection.vue';
+import BottomGrid from './components/BottomGrid.vue';
 </script>

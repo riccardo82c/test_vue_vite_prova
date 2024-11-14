@@ -1,6 +1,6 @@
 <template>
   <span
-    class="uppercase text-black font-semibold px-2 text-[10px] rounded-sm badge-shadow border border-black">
+    class="uppercase text-black font-semibold px-2 text-[10px] rounded-sm badge-shadow ">
     {{ topic }}
   </span>
 </template>

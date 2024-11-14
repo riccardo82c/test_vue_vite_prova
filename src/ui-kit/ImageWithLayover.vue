@@ -77,4 +77,22 @@ const props = defineProps({
     line-height: 54px;
   }
 }
+
+:deep(.topic-content-title.small) {
+
+@container (min-width: 200px) {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@container (min-width: 600px) {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+@container (min-width: 800px) {
+  font-size: 22px;
+  line-height: 30px;
+}
+}
 </style>
