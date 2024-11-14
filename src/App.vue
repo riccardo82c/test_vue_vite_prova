@@ -11,7 +11,7 @@
       <BottomGrid />
     </section>
 
-    <Header />
+    <Footer />
   </div>
 </template>
 
@@ -23,4 +23,5 @@ import CentralGrid from './components/CentralGrid.vue'
 import SubCentralGrid from './components/SubCentralGrid.vue';
 import BlogSection from './components/BlogSection.vue';
 import BottomGrid from './components/BottomGrid.vue';
+import Footer from './components/Footer.vue';
 </script>
